@@ -29,7 +29,7 @@ public class MyTreeList {
 		}
 		return root;
 	}
-	
+	//Henry helped me with this next part -- gave me idea for using arraylists
 	public void printTreeList(MyTreeNode root) {
 		ArrayList<ArrayList<MyTreeNode>>nodeThing = new ArrayList<ArrayList<MyTreeNode>>();
 		int count = 0;
